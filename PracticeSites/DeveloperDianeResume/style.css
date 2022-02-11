@@ -1,12 +1,25 @@
-body {
-	text-align: center;
+/* Universal Selector
+* {
+	margin: 0;
+	padding: 0;
+	color: red;
+} */
+
+/*Target every paragraph element in index.html*/
+p {
+	color: olive;
+	font-size: 26px;
 }
 header {
-		background-color: orange;
+	background-color: orange;
 }
-h1 {
-	font-size: 90px;
-p {
-	font-size: 20px;
+footer {
+	background-color: lightcoral;
 }
-	
+
+/* The following would apply if a change in the appearance of a link is wanted
+a {
+	color: darkblue;
+ 	background-color: peachpuff;
+	text-decoration: none;
+} */
