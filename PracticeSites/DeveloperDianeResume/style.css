@@ -13,13 +13,57 @@ p {
 header {
 	background-color: orange;
 }
+header p {
+	background-color: snow;
+	border-bottom: 1px solid gray;
+}
+ol li {
+	letter-spacing: 3px;
+	color: tomato;
+}
 footer {
 	background-color: lightcoral;
 }
 
-/* The following would apply if a change in the appearance of a link is wanted
-a {
+/* The following would apply if a change in the appearance of a link is wanted */
+a:link {
 	color: darkblue;
  	background-color: peachpuff;
 	text-decoration: none;
-} */
+}
+a:visited {
+	color: seagreen;
+}
+
+/*Target id="education" index.html <section>*/
+#education {
+	border: 3px solid red;
+}
+#education h3 {
+	font-family: Arial, sans-serif;
+	font-size: 32px;
+}
+#proud {
+	font-size: 48px;
+}
+
+/*Good idea to do when not sure if selector ID will be unique or not*/
+.skills-list {
+	background-color: aliceblue
+	padding: 36px;
+}
+.top-skill {
+	font-weight: bold;
+	background-color: teal;
+	color: mustardyellow;
+}
+.date {
+	border: 2px solid steelblue;
+	border-radius: 12px;
+	padding: 6px;
+}
+.special {
+	text-transform: uppercase;
+	background-color: mustardyellow;
+}
+
