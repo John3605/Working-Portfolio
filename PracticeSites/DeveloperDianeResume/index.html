@@ -3,27 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Developer Diane: Resume</title> 
-	<link rel="stylesheet" href="css/style.css">
-	<!--Do keep in mind that "stylesheet" must be both spelled correctly & included otherwise the browser will not read & implement appropriate stylesheet	-->
+  <title>Developer Diane: Resume</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <main>
     <header>
+<!--			Though div's themselves may not be the best choice by themselves when it comes to semantic markup, using id's or classes alongside them is really powerful-->
+			<div id="header-box">
       <h1>Developer Diane: Resume</h1>
       <address>
         <p>website: developerdiane.com</p>
         <p>email: diane@developerdiane.com</p>
       </address>
       <img src="developer-diane.jpg" alt="Developer Diane coding on her laptop.">
+			</div>
     </header>          
-    <section>
+    <section id="education">
       <h2>Education</h2>          
       <ul>
         <li>
           <h3><a href="https://teamtreehouse.com">Treehouse</a></h3>
           <p>Front End Web Development Techdegree</p>
-          <p>Graduated January 2020</p>
+<!--					You can add as many class attributes as you want, just keep separating them with spaces-->
+          <p class="date special">Graduated January 2020</p>
         </li>
       </ul>
     </section>
@@ -33,30 +36,31 @@
         <li>
           <h3>Super Web Design Shop</h3>
           <p>Junior Developer</p>
-          <p>February 2020-present</p>
+          <p class="date">February 2020-present</p>
         </li>
         <li>
           <h3>Pretty Good Websites, Inc.</h3>
           <p>Web Development Intern</p>
-          <p>July 2019-January 2020</p>
+          <p class="date">July 2019-January 2020</p>
         </li>
       </ul>
     </section>
     <section>
       <h2>Skills</h2>
-      <ul>
-        <li>HTML</li>
+      <ul class="skills-list">
+        <li class="top-skill">HTML</li>
         <li>CSS</li>
-        <li>JavaScript</li>
-        <li>Git</li>
+        <li class="top-skill" id="proud">JavaScript</li>
+        <li class="top-skill">Git</li>
         <li>Bootstrap</li>
-        <li>Mobile Web Development</li>
+        <li class="top-skill">Mobile Web Development</li>
         <li>Accessibility</li>
       </ul>
     </section>
     <section>
       <h2>Awards and Achievements</h2>
       <ol>
+				<li>Dev Ninja Award, November 2020</li>
         <li>Developer of the Month, October 2019</li>
         <li>Achieved rating of 6 kyu on <a href="https://www.codewars.com/">Codewars</a></li>
         <li>Certified Accessibility Specialist</li>
