@@ -5,6 +5,12 @@
 	color: red;
 } */
 
+html {
+	font-size: 20px;
+}
+h1 {
+	font-size: 400%;
+}
 /*Target every paragraph element in index.html*/
 p {
 	color: olive;
@@ -12,20 +18,33 @@ p {
 }
 header {
 	background-color: orange;
+	width: 100%;
+	margin-left: 0%;
 }
 header p {
 	background-color: snow;
 	border-bottom: 1px solid gray;
 }
+#header-box {
+	width: 50%;
+	background-color: tomato;
+}
+img {
+	width: 100%;
+}
 ol li {
 	letter-spacing: 3px;
 	color: tomato;
+}
+ol li:first-child {
+	font-weight: bold;
 }
 footer {
 	background-color: lightcoral;
 }
 
 /* The following would apply if a change in the appearance of a link is wanted */
+/*the elements past the colon are considered pseudo-classes*/
 a:link {
 	color: darkblue;
  	background-color: peachpuff;
@@ -33,6 +52,19 @@ a:link {
 }
 a:visited {
 	color: seagreen;
+}
+/*This pseudo-class works only with a mouse; touchscreen would not be able to see the underline*/
+a:hover {
+	text-decoration: underline;
+}
+img:hover {
+	border: 8px solid blue;
+	border-radius: 8px;
+}
+/*"focus" pseudo-class useful for users navigating using keyboard instead of mouse, makes it obvious when selecting a link with tab key*/
+a:focus {
+	color: white;
+	background-color: orange;
 }
 
 /*Target id="education" index.html <section>*/
