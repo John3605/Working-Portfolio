@@ -1,0 +1,27 @@
+header {
+    background-color: rgba(116, 104, 184, 0.533);
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 10%;
+}
+header p {
+    font-size: 125%;
+}
+body {
+    text-align: center;
+}
+
+/* Text properties */
+h1 {
+    font-size: 300%;
+}
+h2 {
+    font-size: 250%;
+}
+h3 {
+    font-size: 200%;
+}
+p {
+    font-size: 100%;
+}
