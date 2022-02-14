@@ -6,10 +6,13 @@
 } */
 
 html {
-	font-size: 20px;
+	font-size: 100%; /* 100% = 16px on most screens & allows users to change font-size rather than being stuck at a set pixel size*/
 }
 h1 {
-	font-size: 400%;
+	font-size: 4em;
+/*	In the case of margin-bottom, it calculated the margin as 120px rather than 30px because of the above 4em*/
+	margin-bottom: 1.5em;
+/*	If you'd like to ignore parent multiplicative factor, simply use 'rem' instead of 'em'.*/
 }
 /*Target every paragraph element in index.html*/
 p {
@@ -63,8 +66,8 @@ img:hover {
 }
 /*"focus" pseudo-class useful for users navigating using keyboard instead of mouse, makes it obvious when selecting a link with tab key*/
 a:focus {
-	color: white;
-	background-color: orange;
+	color: white; /* rgb(255, 255, 255) */
+	background-color: rgba(255, 165, 0, 0.5); /* rgb(255, 165, 0) */
 }
 
 /*Target id="education" index.html <section>*/
@@ -74,6 +77,7 @@ a:focus {
 #education h3 {
 	font-family: Arial, sans-serif;
 	font-size: 32px;
+	background-color: rgb(150, 200, 250);
 }
 #proud {
 	font-size: 48px;
@@ -98,4 +102,3 @@ a:focus {
 	text-transform: uppercase;
 	background-color: mustardyellow;
 }
-
