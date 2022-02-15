@@ -13,8 +13,21 @@ h1 {
 /*	In the case of margin-bottom, it calculated the margin as 120px rather than 30px because of the above 4em*/
 	margin-bottom: 1.5em;
 /*	If you'd like to ignore parent multiplicative factor, simply use 'rem' instead of 'em'.*/
+	color: yellow;
 }
 /*Target every paragraph element in index.html*/
+
+
+/* This would be an example of cascading class selectors 
+#heading {
+	color: white;
+}
+.heading {
+	color: black;
+}
+*/
+
+
 p {
 	color: olive;
 	font-size: 26px;
@@ -102,3 +115,4 @@ a:focus {
 	text-transform: uppercase;
 	background-color: mustardyellow;
 }
+
