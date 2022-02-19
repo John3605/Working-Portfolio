@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+	
 <head>
   <meta charset="UTF-8">
   <title>Developer Diane's blog</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
+	
 <body>
   <header>
     <div id="logo">Developer Diane’s Blog</div>
   </header>
+	
   <article>
     <section>
       <h1>The verdict is in. CSS Layout is great!</h1>
       <p>I’ve been working with CSS for a while now, and I have to say, it’s pretty awesome. I love being able to separate content from presentation, and to keep all my styles in an external stylesheet.</p>
       <p>I’ve had a pretty good grasp on the basics for a while now, but I needed to learn more about how to control layout with my CSS. Understanding CSS layout meant first exploring the parts of the CSS box model.</p>
     </section>
+		
     <section>
       <h2>The CSS Box Model</h2>
       <p>There are lots of great resources online to help you learn the CSS Box Model. I like the CSS Tricks article <a href="https://css-tricks.com/the-css-box-model/" target="_blank">The CSS Box Model</a> by Chris Coyier. To quote the author:</p>
@@ -25,24 +29,28 @@
       <p>It’s pretty easy to understand the Content portion of the box model. The content is whatever your HTML consists of. It could be a paragraph full of text, or a bulleted list, or an image.</p>
       <p>Beginning developers may have some trouble keeping the other parts of the box model straight, so let’s examine them one by one.</p>
     </section>
+		
     <section>
       <h2>Padding</h2>
       <p>Padding immediately surrounds the content area. Padding is often used to give the content area some breathing room by separating the content from the surrounding border area.</p>
     </section>
+		
     <section>
       <h2>Border</h2>
       <p>The border area of the box is the outermost part of the box. You can think of it as giving the rectangular box an outline. Borders tend to be hidden on most CSS elements by default, but once visible different styles like color and thickness can be applied to them.</p>
     </section>
+		
     <section>
       <h2>Margin</h2>
       <p>Finally, the margin area exists outside of the box. Margin is the space around an element that separates it from other elements. </p>
       <p>It’s important to remember that padding and border affect the size of a CSS box, but margin doesn’t.</p>
     </section>
   </article>
+	
   <aside>
     <h3>About me</h3>
     <img src="developer-diane.jpg" alt="Developer Diane coding on her laptop.">
-    <p>Developer Diane is a graduate of Treehouse’s Front End Web Development Techdegree. She’s currently a junior developer at Super Web Design Shop.</p>
+    <p id="bio">Developer Diane is a graduate of Treehouse’s Front End Web Development Techdegree. She’s currently a junior developer at Super Web Design Shop.</p>
     <h3>Other articles I’ve written</h3>
     <nav>
       <ul>
@@ -52,6 +60,10 @@
       </ul>
     </nav>
   </aside>
-  <footer>©2020 Developer Diane.</footer>
+	
 </body>
+
+<footer>
+	©2020 Developer Diane.
+</footer>
 </html>
