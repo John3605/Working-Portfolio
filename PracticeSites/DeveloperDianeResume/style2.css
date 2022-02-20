@@ -26,7 +26,22 @@ header {
 	border-bottom-color: #cf7919; /* Note: if this were to go before 'border: 12px...' then the cascade would not allow this color to display */
 	
 /* Keep in mind that all of the previous traits for padding & border also apply to margin	*/
-/*	margin: 20px 5px;*/
+	margin: 20px 5px
+}
+section {
+	min-height: 100vh; /* a 'vh' is a viewpot height; 100vh stands for the entire height of the viewport */
+	padding: 1rem;
+	border-bottom: 2px dotted #666;
+	background-color: azure;
+}
+/*
+a {
+	display: block;
+	background-color: yellow;
+}
+*/
+.hide {
+	display: none; /* Anything with display set to none wont display even on text readers; useful only on user interaction where things are hidden until users are ready to see */
 }
 aside img, #bio { /* added #bio so as to mitigate & comply with the DRY coding principle */
 	width: 100%;
@@ -62,4 +77,12 @@ footer {
 	color: #294969;
 	font-size: .8rem;
 	text-align: center;
+}
+ul li {
+	display: inline-block; 
+	width: 30%;
+	padding: 10px 0;
+	background-color: yellow;
+	text-align: center;
+}
 }
