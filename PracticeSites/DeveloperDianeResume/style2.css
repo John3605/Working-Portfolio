@@ -5,9 +5,13 @@ html {
 	font-size: 1.25rem; /* 20px on most screens; using REM to allow for browser accessiblity (so people can adjust font size themselves if they need to) */
 }
 header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+/*	z-index: 1;*/
 	background-color: #294969;
 	color: ghostwhite;
-	padding-top: 10px;
 	padding-right: 15px;
 	padding-left: 15px;
 	padding-bottom: 10px;
@@ -26,13 +30,50 @@ header {
 	border-bottom-color: #cf7919; /* Note: if this were to go before 'border: 12px...' then the cascade would not allow this color to display */
 	
 /* Keep in mind that all of the previous traits for padding & border also apply to margin	*/
-	margin: 20px 5px
+	margin: 0;
+}
+header, body, article {
+	padding-top: 10px;
+	margin: 0;
+}
+body {
+	border-top: 10px;
+}
+article {
+	margin-top: 20vh;
 }
 section {
 	min-height: 100vh; /* a 'vh' is a viewpot height; 100vh stands for the entire height of the viewport */
 	padding: 1rem;
 	border-bottom: 2px dotted #666;
 	background-color: azure;
+}
+.small-img {
+	float: left; /* Has the image partitioned onto left side of viewport */
+	width: 300px;
+	margin: 0 1rem 1rem 0; 
+}
+.clear {
+	clear: both; /* accepts left or right but both is best as you dont need to specify */
+}
+#interesting-banner {
+	position: sticky;
+	top: 0;
+	padding: 10px 15px;
+	border: 12px solid lightsalmon;
+	margin: 0 -8px;
+	background: firebrick;
+	color: white;
+	font-weight: bold;
+}
+h1 {
+	/* Not very useful in this state
+	position: absolute;
+	top: 20px;
+	right: 10px;
+	width: 100%;
+	*/
+	background-color: yellow;
 }
 /*
 a {
@@ -43,6 +84,19 @@ a {
 .hide {
 	display: none; /* Anything with display set to none wont display even on text readers; useful only on user interaction where things are hidden until users are ready to see */
 }
+figure {
+	position: relative;
+	margin: 0;
+}
+figcaption { /* Since figure's parent of figcaption, we can use absolute positioning to place caption over image */
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+	bottom: 20px;
+	background-color: yellow;
+	text-align: center;
+}
+	
 aside img, #bio { /* added #bio so as to mitigate & comply with the DRY coding principle */
 	width: 100%;
 	max-width: 600px;
@@ -67,7 +121,7 @@ footer {
 }
 */
 article, aside, footer {
-	margin: 8px;
+	margin: 0;
 }
 footer {
 	width: 200px;
@@ -84,5 +138,4 @@ ul li {
 	padding: 10px 0;
 	background-color: yellow;
 	text-align: center;
-}
 }
