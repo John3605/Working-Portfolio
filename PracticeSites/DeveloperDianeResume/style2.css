@@ -6,6 +6,7 @@ html {
 }
 header {
 	position: fixed;
+	z-index: 2;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -58,6 +59,7 @@ section {
 }
 #interesting-banner {
 	position: sticky;
+	z-index: 3;
 	top: 0;
 	padding: 10px 15px;
 	border: 12px solid lightsalmon;
@@ -86,6 +88,7 @@ a {
 }
 figure {
 	position: relative;
+	z-index: 1;
 	margin: 0;
 }
 figcaption { /* Since figure's parent of figcaption, we can use absolute positioning to place caption over image */
@@ -138,4 +141,14 @@ ul li {
 	padding: 10px 0;
 	background-color: yellow;
 	text-align: center;
+}
+
+/* Make sure to try to keep your media queries at the bottom of your css sheet*/
+@media print { /* Within the media element you can create css rules that'll apply only to the specified attribute after the @media */
+	section {
+		min-height: auto; /* auto means to let the browser determine the min height */
+	}
+	#interesting-banner {
+		display: none;
+	}
 }
