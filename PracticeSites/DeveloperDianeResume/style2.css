@@ -148,6 +148,7 @@ ul li {
 		display: none;
 	}
 }
+/*The following media query makes sure that .small-img looks good even if the viewport screen is smaller than 300px*/
 @media screen and (min-width: 600px) {
 		.small-img {
 		float: left; /* Has the image partitioned onto left side of viewport */
