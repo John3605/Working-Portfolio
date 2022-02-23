@@ -50,12 +50,7 @@ section {
 	background-color: azure;
 }
 .small-img {
-	float: left; /* Has the image partitioned onto left side of viewport */
-	width: 300px;
-	margin: 0 1rem 1rem 0; 
-}
-.clear {
-	clear: both; /* accepts left or right but both is best as you dont need to specify */
+	width: 100%;
 }
 #interesting-banner {
 	position: sticky;
@@ -136,9 +131,10 @@ footer {
 	text-align: center;
 }
 ul li {
-	display: inline-block; 
-	width: 30%;
+	display: block; 
+	width: 90%;
 	padding: 10px 0;
+	margin-bottom: 10px;
 	background-color: yellow;
 	text-align: center;
 }
@@ -150,5 +146,21 @@ ul li {
 	}
 	#interesting-banner {
 		display: none;
+	}
+}
+@media screen and (min-width: 600px) {
+		.small-img {
+		float: left; /* Has the image partitioned onto left side of viewport */
+		width: 300px;
+		margin: 0 1rem 1rem 0; 
+	}
+	.clear {
+		clear: both; /* accepts left or right but both is best as you dont need to specify */
+	}
+}
+@media screen and (min-width: 730px) {
+	ul li {
+		display: inline-block;
+		width: 30%;
 	}
 }
