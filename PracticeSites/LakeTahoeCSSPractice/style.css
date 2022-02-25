@@ -1,0 +1,21 @@
+/* Web Fonts ----------------------- */
+
+
+/* Base Styles --------------------- */
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 1.25em; /* 20px on most screens */  
+}
+img {
+  width: 100%; /* responsive images */
+}
+
+
+/* Main Styles --------------------- */
+
+
+/* Media Queries ------------------- */
+
+
