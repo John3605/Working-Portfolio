@@ -1,0 +1,72 @@
+/* ================================================= 
+   Practice Media Queries
+==================================================== */
+
+/* Target viewport sizes less than 576px */
+/* GETTING RID OF THE 'SCREEN AND' makes the media queries suitable to all devices*/
+@media screen and (max-width: 576px) {
+  header {
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
+  .logo {
+    margin-bottom: 0;
+  }
+  nav a {
+    padding: 6px 0;
+    background: #def1f9;
+    margin: .2em 0;
+  }
+  img {
+    display: none;
+  }
+}
+
+/* Target viewport sizes 576px and wider */
+
+@media screen and (min-width: 576px) {
+  .logo {
+    float: left;
+  }
+  nav {
+    margin-top: 24px;
+  }
+  nav li {
+    display: inline-block;
+    margin: 0 0.45em;
+  }
+  h2 {
+    margin-bottom: 1.5em;
+  }
+}
+
+/* Target a viewport range wider than 575px and narrower than 992px */
+
+@media screen and (min-width: 576px) and (max-width: 991px) {
+  nav {
+    float: left;
+    margin-left: 20px;
+  }
+}
+
+/* Target viewport sizes 768px and wider */
+
+@media screen and (min-width: 768px) {
+  .articles {
+    float: left;
+    width: 65%;
+  }
+  aside {
+    float: right;
+    width: 30%;
+  }
+}
+
+/* Target viewport sizes 992px and wider */
+
+@media screen and (min-width: 992px) {
+  nav {
+    float: right;
+  }
+}
+
