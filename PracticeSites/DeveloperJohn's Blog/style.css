@@ -159,9 +159,20 @@ ul li {
 		clear: both; /* accepts left or right but both is best as you dont need to specify */
 	}
 }
+@media screen and (min-width: 600px) and (max-width: 800px) {
+	header {
+		color: yellow;
+	}
+}
 @media screen and (min-width: 730px) {
 	ul li {
 		display: inline-block;
 		width: 30%;
+	}
+}
+/*The following changes the background to cornsilk color if width is at least 900px or in portrait orientation (when the width surpasses height)*/
+@media screen and (min-width: 900px), (orientation: portrait) {
+	section {
+		background-color: cornsilk;
 	}
 }
