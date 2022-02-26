@@ -8,6 +8,10 @@
 html {
   font-size: 1.25em; /* 20px on most screens */  
 }
+body {
+	/* font-family: "Gotham Rounded"; Not web-safe typeface so needs to be installed onto machine first to be shown */
+	font-family: Verdana, Geneva, sans-serif; /* This stack should be web-safe and if not then it will fallback (in order) on the next one in the list */
+}
 img {
   width: 100%; /* responsive images */
 }
