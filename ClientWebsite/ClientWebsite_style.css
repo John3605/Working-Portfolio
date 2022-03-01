@@ -6,22 +6,27 @@ header {
     margin-top: 10%;
 }
 header p {
-    font-size: 125%;
+     font-size: 1.25rem; /* Remember: rem is used so that users can adjust text size */
 }
 body {
     text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    color: #454959;
+    font-weight: 300;
+    line-height: 1.5; /* This is to make things more legible with all devices screen sizes */
 }
 
 /* Text properties */
 h1 {
-    font-size: 300%;
+    font-size: 4rem;
 }
 h2 {
-    font-size: 250%;
+    font-size: 2.5rem;
 }
 h3 {
-    font-size: 200%;
+    font-size: 2rem;
 }
 p {
-    font-size: 100%;
+    font-size: 1rem;
 }
+@media 
