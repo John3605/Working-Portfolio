@@ -1,5 +1,8 @@
 /* Web Fonts ----------------------- */
-
+@font-face {
+	font-family: 'Abolition Regular';
+	src: url(../fonts/abolition-regular-webfont.woff') format('woff');
+}
 
 /* Base Styles --------------------- */
 * {
@@ -10,7 +13,30 @@ html {
 }
 body {
 	/* font-family: "Gotham Rounded"; Not web-safe typeface so needs to be installed onto machine first to be shown */
-	font-family: Verdana, Geneva, sans-serif; /* This stack should be web-safe and if not then it will fallback (in order) on the next one in the list */
+	/* This stack should be web-safe and if not then it will fallback (in order) on the next one in the list */
+	color: #454959;
+/*Another way to write what's below: 
+	font: 300 100%/1.5 'League Gothic', sans-seriff; */
+	font-family: 'League Gothic', sans-serif;
+	font-weight: 300;
+	line-height: 1.5;
+}
+}
+h1, h2 {
+/*Another way to shorten what's below:
+	font: normal 100%/1.2 'Abolition Regular', impact, charcoal, sans-seriff; */
+	font-family: 'Abolition Regular', Impact, Charcoal, sans-seriff;
+	font-weight: normal;
+	line-height: 1.2;
+}
+h1 {
+	font-size: 4rem;
+}
+h2 {
+	font-size: 2.5rem;
+}
+h3 {
+	font-size: 1.25rem;
 }
 img {
   width: 100%; /* responsive images */
@@ -18,7 +44,10 @@ img {
 
 
 /* Main Styles --------------------- */
-
+.title {
+	letter-spacing: 1rem; /* equivalent to 20px; way too much */
+	letter-spacing: .05rem;
+}
 
 /* Media Queries ------------------- */
 
