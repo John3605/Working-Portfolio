@@ -13,8 +13,8 @@ html {
 }
 body {
 	/* font-family: "Gotham Rounded"; Not web-safe typeface so needs to be installed onto machine first to be shown */
-	/* This stack should be web-safe and if not then it will fallback (in order) on the next one in the list */
 	color: #454959;
+	margin: 1rem;
 /*Another way to write what's below: 
 	font: 300 100%/1.5 'League Gothic', sans-seriff; */
 	font-family: 'League Gothic', sans-serif;
@@ -31,6 +31,10 @@ h1, h2 {
 }
 h1 {
 	font-size: 4rem;
+/* This is a good first attempt but need to use RGBA to low opacity/have more accurate colors
+	text-shadow: -7px 3px 0 blue,
+								-10px 6px 0 yellow; */
+	text-shadow: 6px 6px 3px rgba(0,10,30,.3); /* 1px to the right, 2px down, 3px of blur; 0 red, 10 green, 30 blue, and 50% opacity */	
 }
 h2 {
 	font-size: 2.5rem;
@@ -44,9 +48,21 @@ img {
 
 
 /* Main Styles --------------------- */
+header {
+	background-color: #f3753b;
+	padding: 10vh 1rem;
+	margin: -1rem -1rem 1rem;
+	color: white;
+}
+header, footer {
+	text-align: center;
+}
 .title {
 	letter-spacing: 1rem; /* equivalent to 20px; way too much */
 	letter-spacing: .05rem;
+}
+main {
+	hyphens: auto;
 }
 
 /* Media Queries ------------------- */
