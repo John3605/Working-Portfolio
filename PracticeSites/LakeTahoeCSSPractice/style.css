@@ -21,6 +21,10 @@ body {
 	font-weight: 300;
 	line-height: 1.5;
 }
+/*This changes the color of links to orange & removes their underline*/
+a {
+	color: #cc4e13;
+	text-decoration: none;
 }
 h1, h2 {
 /*Another way to shorten what's below:
@@ -64,7 +68,17 @@ header, footer {
 main {
 	hyphens: auto;
 }
-
+#wildlife {
+	padding: 20% 15%;
+	border-top: 12px solid #f3753b;
+	background-color: #454959;
+	color: white;
+	box-shadow: inset 0 0 40px 10px rgba(0,10,30,.8); /* inset makes the shadows go inside rather than outside the box; after inset 1st 0's hor. offset, ver. offset, blur, and ext. blur, respectively */
+}
+/*This is a descendant selector that changes the color of links inside of id='wildlife'*/
+#wildlife a {
+	color: #f7a27c;
+}
 /* Media Queries ------------------- */
 
 
