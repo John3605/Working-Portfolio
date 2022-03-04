@@ -20,6 +20,27 @@ body {
 	font-family: 'League Gothic', sans-serif;
 	font-weight: 300;
 	line-height: 1.5;
+/*	The following is an example of how to use a URL to inject an image into the background
+	background-image: url(http://placekitten.com/200/300);
+	
+		Repeat-x would have the images repeat horizontally while repeat-y would have them repeat vertically; no-repeat would have no repetitions 
+	background-repeat: no-repeat;
+	
+		Percentages would also work as they would change according to the size 		of the viewport but words work just fine as well 
+	background-position: center bottom;
+	background-size: 400px 600px; */
+	
+/*	The background element is made up of 8 other properties: background-image, -position, -size, -repeat, -attachment, -origin, -clip, -color. 
+		Although there is a standard, preferred order to this property, any order is acceptable and should still work */
+	background:
+		url(../img/bear.jpg) /* image */
+		center/cover /* position / size */
+		no-repeat /* repeat */
+		fixed /* attachment */
+		padding-box /* origin */
+		content-box /* clip */
+		#454959; /* color */
+/*	sidenote: I didn't modify the actual background image used, lucked out by it being a pretty low contrast image to begin with */
 }
 /*This changes the color of links to orange & removes their underline*/
 a {
@@ -39,6 +60,11 @@ h1 {
 	text-shadow: -7px 3px 0 blue,
 								-10px 6px 0 yellow; */
 	text-shadow: 6px 6px 3px rgba(0,10,30,.3); /* 1px to the right, 2px down, 3px of blur; 0 red, 10 green, 30 blue, and 50% opacity */	
+}
+/*Anything that's displayed inside of the element below would be purely decorational; can't be selected, think of it as a background image*/
+h1::after {
+	content: '\2193';
+	display: block;
 }
 h2 {
 	font-size: 2.5rem;
