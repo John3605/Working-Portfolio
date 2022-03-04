@@ -48,7 +48,9 @@ h3 {
 }
 img {
   width: 100%; /* responsive images */
-	border-radius: 10px;
+/*	An alternate to below:
+	border-radius: 50%;  This turns the image into a circle (or oval depending on image ratio) */
+	border-radius: 15px; 
 }
 
 
@@ -82,7 +84,8 @@ main {
 	color: #f7a27c;
 }
 .callout {
-	display: block;
+	display: block; /* Since a element is inline by default & styling options are more limited on inline elements */
+/* Used margin: auto to center box in viewport & text-align: center to center text in the box */
 	width: 250px;
 	padding: .25rem 1rem;
 	margin: 1rem auto;
@@ -90,6 +93,12 @@ main {
 	color: white;
 	text-align: center;
 	font-size: 1.25rem;
+/* The following is for rounding the corners of the box */
+	border-radius: 20px/10px;
+/*	Applying a box-shadow to a box with rounded corners also applies to the corners */
+	box-shadow: 3px 4px 5px rgba(0,10,30,.8);
+}
+
 /* Media Queries ------------------- */
 
 
