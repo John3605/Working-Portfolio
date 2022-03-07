@@ -82,7 +82,11 @@ img {
 
 /* Main Styles --------------------- */
 header {
-	background-color: #f3753b;
+	background: url(../img/mountains.jpg) 
+		center / cover 
+		no-repeat 
+		#f3753b;
+	background-blend-mode: multiply;
 	padding: 10vh 1rem;
 	margin: -1rem -1rem 1rem;
 	color: white;
