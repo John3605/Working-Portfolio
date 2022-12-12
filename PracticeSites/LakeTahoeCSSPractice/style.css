@@ -100,6 +100,12 @@ header, footer {
 }
 main {
 	hyphens: auto;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+section {
+  padding: 4rem 0;
+  border-bottom: 1px dashed #9599a9;
 }
 #wildlife {
 	padding: 20% 15%;
@@ -132,5 +138,4 @@ main {
 }
 
 /* Media Queries ------------------- */
-
 
