@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA Compatible" content="IE-edge">
+    <meta name="viewport" content="width-device-width, intitial-scale">
+    <title>Document</title>
+</head>
+<body>
+    Hello, this is a test of live server. As you can see, as soon as you press the cmd + s, you'll be able to see it save in the liver server as well!
+</body>
+</html>
