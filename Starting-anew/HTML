@@ -1,3 +1,20 @@
-<h1 class="title-primary">
-    This h1 is typically at the very top because of how important it is
-</h1>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>This is the hyperlink people will be clicking from the web browser</title> 
+        <meta name="description" content="Create an account or Login">
+        <meta name="keywords" content="Facebook, social media,">
+        <meta name="viewport" content="width=device-width, intitial-scale=1.0">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1 class="title-primary">
+            This h1 is typically at the very top because of how important it is
+        </h1>
+        <h2>
+        <a href="https://google.com">
+            This is my second header & if you click on it, it'll redirect you over to google.com
+        </a>
+        </h2>
+    </body> 
+</html>
