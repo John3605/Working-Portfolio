@@ -1,0 +1,27 @@
+<div class="top-bar">
+  <h2>iCalnex</h2>
+</div>
+<div class="hero purple-bg-img">
+  <!--  [1] "wrap" these h1 and p elements inside a div, with class "left-side" (ffremember to indent) -->
+  
+  
+<div class="left-side">
+  <h1>The best way to communicate with everyone</h1>
+  <p>
+    Connect your phone system with business apps, Ai, and automation on a single platform - to run your business.
+  </p>
+</div>
+  <!--  [2] create an empty div with class "right-side"  -->
+<div class="right-side">
+  
+</div>
+<div class="company-logos">
+  <!-- [3] Create 6 divs with class "logo-box" -->
+  <div class="logo-box"></div>
+  <div class="logo-box"></div>
+  <div class="logo-box"></div>
+  <div class="logo-box"></div>
+  <div class="logo-box"></div>
+  <div class="logo-box"></div>
+  
+</div> 
