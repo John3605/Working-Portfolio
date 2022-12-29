@@ -1,0 +1,24 @@
+<!-- 
+    > SPEC
+    > Create a simple HTML document describing yourself
+    > this editor is only <body> so you don't need "boilerplate." (no head, meta tags, etc)
+
+    > create a <h1>, <h3>, and 3 <p> text elements describing why you joined this program
+    
+    > put the first letters of your paragraphs inside a span, with "first-letter" class
+    > put your paragraphs inside a <div> container with a "container" id
+-->
+
+<h1> how ya doing? </h1>
+<h3> Never been better myself </h3>
+<p>
+  <span class="first-letter"> O</span>kay so I'm hoping this is what the instructions were asking me to do because if they weren't then this is embarassing
+</p>
+<p>
+  <span class="first-letter"> N</span>ow I am able to see just what I need to do, hence the reason why I'm here
+</p>
+<p>
+  <span class="first-letter"> T</span>here's not much I need to say
+</p>
+
+<!-- your HTML here -->
