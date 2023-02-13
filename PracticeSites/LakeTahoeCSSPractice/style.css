@@ -138,4 +138,31 @@ section {
 }
 
 /* Media Queries ------------------- */
-
+@media screen and (min-width: 720px) {
+  header {
+    padding: 20vh 1rem;
+  }
+  h1 {
+    font-size: 1.25rem;
+  }
+  h1:after {
+    margin-top: 1rem;
+  }
+  .title {
+    font-size: 1.25rem;
+  }
+  .intro {
+    padding: 0 15%;
+    font-size: 1.1rem;
+  }
+  .column {
+    display: inline-block;
+    width: 48%;
+    margin-right: -4px;
+  } 
+/* This is where a really cool css feature called calc() which allows you to get the measurements of mismatched value units */
+  .column:first-child {
+    margin-right: calc(4% - 4px);
+    margin-bottom: 0;
+  }
+}
