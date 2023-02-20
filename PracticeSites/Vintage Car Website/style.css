@@ -1,0 +1,44 @@
+body {
+  font-family: Verdana;
+  text-align: center;
+}
+
+div {
+  margin: 10px;
+}
+
+h1 {
+  color: darkslategray;
+}
+
+h3 {
+  margin-top: 40px;
+}
+
+input {
+  text-align: left;
+  margin: 15px;
+  display: inline;
+}
+
+input[type="checkbox"] {
+  margin-right: 0;
+}
+
+label {
+  display: inline;
+}
+
+ul {
+  margin-left: -30px;
+  list-style: none;
+}
+
+li {
+  padding: 5px;
+}
+
+a {
+  margin: 0 5px;
+  font-weight: bold;
+}
