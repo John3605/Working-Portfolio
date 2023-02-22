@@ -1,0 +1,28 @@
+body {
+  background-color: #273C75;
+  color: white;
+}
+
+#project {
+  font-family: sans-serif;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+h3 {
+  margin-top: 20%;
+}
+
+table {
+  border-collapse: collapse;
+  font-size: 10px;
+}
+
+tr,
+th,
+td {
+  border: 5px solid white;
+  padding: 10px;
+}
