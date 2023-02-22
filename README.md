@@ -38,7 +38,3 @@ Agile development
 Contact Me
 
 If you're interested in working together, feel free to reach out to me at janedoe@email.com or connect with me on LinkedIn. Let's build something great together!
-
-License
-
-This portfolio is licensed under the MIT License.
