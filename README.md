@@ -25,16 +25,18 @@ Skills
 
 Here are some of the technical skills and tools I'm proficient in:
 
-HTML
-CSS
-JavaScript
-React
-Shopify
-WordPress
-Git
-Responsive design
-Cross-browser compatibility
-Agile development
-Contact Me
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+<li>React</li>
+<li>Shopify</li>
+<li>WordPress</li>
+<li>Git</li>
+<li>Responsive design</li>
+<li>Cross-browser compatibility</li>
+<li>Agile development</li>
+<li>Contact Me</li> 
+</ul>
 
-If you're interested in working together, feel free to reach out to me at janedoe@email.com or connect with me on LinkedIn. Let's build something great together!
+If you're interested in working together, feel free to reach out to me at <a href="mailto:john@john3605.dev">john@john3605.dev</a> or connect with me on LinkedIn. Let's build something great together!
