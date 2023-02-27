@@ -40,6 +40,9 @@ Here are some of the technical skills and tools I'm proficient in:
 
   <u>Let's build something great together!</u>
 Feel free to reach out to me at <a href="mailto:john@john3605.dev">john@john3605.dev</a> or connect with me on:
+  <br>
   <a href="https://www.instagram.com/john3605">Instagram</a>
+  <br>
   <a href="https://www.linkedin.com/in/john3605">LinkedIn</a>
+  <br>
   <a href="https://twitter.com/john3605_">Twitter</a>
