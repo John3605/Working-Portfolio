@@ -4,12 +4,13 @@ Welcome to my portfolio! I'm Jonathan Chavarria, a mid-level Front-End Web Devel
 <strong>Here you can find a showcase of my work, skills, and contact information.<strong> Let's get started!
 
   <u>Table of Contents</u>
-<ol>
+<ul>
   <li>About Me</li>
 <li>Projects</li>
 <li>Skills</li>
 <li>Contact Me</li>
-
+</ul>
+  
 I have 3 years of experience in web development, working mainly with small & medium businesses. Studied Computer Science at UC Berkeley and a passion for creating beautiful and intuitive user interfaces. I enjoy working with clients to bring their ideas to life and I'm always looking to learn and improve my skills.
 
 <h2>Projects</h2>
