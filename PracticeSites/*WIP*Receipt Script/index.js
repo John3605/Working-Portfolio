@@ -22,7 +22,17 @@ function setElementText(id, text) {
 }
 
 function populateTable() {
-  for (i in customers.length); {
-    console.log(i);
+  for (let i = 0; i < customers.length; i++) {
+    customer = customers[i];
+    receipt = receipts[i];
+    receipt_list = "";
+    sum = 0;
+    for (let j = 0; j < receipt.length; j++) {
+      item = receipt[j];
+      price = prices[item];
+      receipt_list = (receipt_list + item + "\n");
+      sum = sum + price;
+    }
+    console.log()
   }
 }
