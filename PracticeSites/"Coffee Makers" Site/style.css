@@ -1,0 +1,18 @@
+body {
+  background: #A25B5B;
+  color: #CC9C75;
+}
+
+img {
+  border-radius: 100%;
+  width: 12rem;
+  height: 12rem;
+}
+
+ul {
+  list-style: none;
+}
+
+div {
+  text-align: center;
+}
