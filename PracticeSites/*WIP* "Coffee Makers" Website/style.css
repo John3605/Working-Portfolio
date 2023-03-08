@@ -4,7 +4,9 @@ body {
 }
 
 img {
-  border-radius: 50%;
+  border-radius: 100%;
+  width: 12rem;
+  height: 12rem;
 }
 
 ul {
