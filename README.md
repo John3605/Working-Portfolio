@@ -3,7 +3,7 @@
 Welcome to my portfolio! I'm Jonathan Chavarria, a mid-level Front-End Web Developer with expertise in HTML, CSS, JS, React, and CMS frameworks like WordPress and Shopify. 
 <strong>Here you can find a showcase of my work, skills, and contact information.<strong> Let's get started!
 
-  <u>Table of Contents</u>
+  <h3><u>Table of Contents</u></h3>
 <ul>
   <li>About Me</li>
 <li>Projects</li>
