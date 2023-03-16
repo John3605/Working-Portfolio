@@ -13,4 +13,13 @@ else if (mode === "light") {
   image = "/img/light-icon.png";
   label = "Light Mode";
 }
-else {}
+else {
+  color = "dimGray";
+  image = "/img/ninja-icon.png";
+  label = "Ninja Mode";
+} 
+console.log(label); 
+mode = "dark";
+console.log(label);
+mode = "ninja";
+console.log(label);
