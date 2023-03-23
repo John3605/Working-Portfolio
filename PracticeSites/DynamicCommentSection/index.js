@@ -19,6 +19,13 @@ function createText(text) {
 	return newText;
 }
 
+function resetFields() {
+	let clearInitials = document.getElementById("initials");
+	clearInitials.value = "";
+	let clearText = document.getElementById("commentText");
+	clearText.value = "";
+}
+
 function addComment() {
  let commentsDiv = document.getElementById("commentSection");
 	let initialsInput = document.getElementById("initials").value;
@@ -27,4 +34,8 @@ function addComment() {
 	let enclosingDiv = createEnclosingDiv();
 	let avatar = createAvatar(initialsInput);
 	let text = createText(textInput);
+
+	enclosingDiv.append(avatar, text);
+	commentsDiv.append(enclosingDiv);
+	resetFields();
 }
