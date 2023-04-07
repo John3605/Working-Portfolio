@@ -6,8 +6,8 @@
  console.log(isWeekday);
 
 
- console.log("Air Conditioning on?");
+ console.log("Is the Air Conditioning on?");
  console.log(airConditioning);
 
- console.log("High Temperature?");
+ console.log("Is it High Temperature?");
  console.log(highTemperature);
