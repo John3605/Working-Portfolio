@@ -1,3 +1,4 @@
+// The following allows for picking various drinks
 
 let beverages = ['tea', 'coffee', 'apple cider'];
 
