@@ -1,0 +1,26 @@
+h1 {
+ color: blue;
+}
+
+h2 {
+ background-color: lightblue;
+}
+
+img {
+ border-radius: 50%;
+ height: 100px;
+ width: 100px;
+ margin-top: 3px;
+}
+
+body {
+ background-color: #F9FFFB;
+ font-family: sans-serif;
+}
+
+button {
+ margin-top: 20px;
+ background-color: lightblue;
+ border-radius: 10px;
+ padding: 5px;
+}
